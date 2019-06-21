@@ -25,8 +25,14 @@ In this challenge use `Test Driven Development` to build a RESTful API using Nod
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 1. In Jest, what are the differences between `describe()` and `it()` globals, and what are good uses for them?
+Describe can be used to explain and describe a test or group of tests while it is telling you exactly what that test "should" do.
 1. What is the point of `Test Driven Development`? What do you think about this approach?
+To sort out exactly what you want your application to do and how it should do it before going in and writing the code. It forces you to think about all possible uses and misuses of you your application
 1. Mention three types of automated tests.
+react testing,
+function testing,
+model testing,
+route testing
 
 ## Project Set Up
 
