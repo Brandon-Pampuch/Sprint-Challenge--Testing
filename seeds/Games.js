@@ -1,13 +1,14 @@
 
 exports.seed = function(knex, Promise) {
   // Deletes ALL existing entries
-  return knex('table_name').del()
+  return knex('games').del()
     .then(function () {
       // Inserts seed entries
-      return knex('table_name').insert([
-        {id: 1, colName: 'rowValue1'},
-        {id: 2, colName: 'rowValue2'},
-        {id: 3, colName: 'rowValue3'}
+      return knex('games').insert([
+        {id: 1, title: 'Mario', genre: "side scroller"},
+        {id: 2, title: 'Donkey Kong', genre: "arcade"},
+        {id: 3, title: 'Centiped', genre: "shooter"},
+
       ]);
     });
 };
